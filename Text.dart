@@ -36,13 +36,6 @@ class Home extends StatelessWidget {
           actions: [
             IconButton(
               onPressed: () {
-                // ScaffoldMessenger.of(context).showSnackBar(
-                //   SnackBar(
-                //     content: Text('Money has been added.'),
-                //     backgroundColor: Colors.blueGrey,
-                //     duration: Duration(seconds: 1),
-                //   ),
-                // );
                 showDialog(context: context, builder: (context){
                   return AlertDialog(
                     title: Text('Send Money'),
@@ -68,10 +61,6 @@ class Home extends StatelessWidget {
               overflow: TextOverflow.ellipsis,
             ),
           ),
-          child: Icon(Icons.android, size: 84, color: Colors.green,),
-          child: Image.network('https://semaphoreci.com/wp-content/uploads/2021/05/Eric-312.png', width: 300, height: 500, fit: BoxFit.fill,),
-          child: Image.asset('images/sohel.jpg', width: 300, height: 300, fit: BoxFit.cover ,),
-
           
         ));
   }
