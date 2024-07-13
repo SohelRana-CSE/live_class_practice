@@ -56,6 +56,7 @@ class Home extends StatelessWidget {
           ],
         ),
         body: Center(
+
           // child: Text(
           //   'Hello World. we are starting a new application journey',
           //   textAlign: TextAlign.center,
